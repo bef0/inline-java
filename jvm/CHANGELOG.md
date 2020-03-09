@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 * Benchmarks for arrays and direct buffer operations
 * An interface based on linear types (https://github.com/tweag/inline-java/pull/127)
 * An abstract monad to use in the safe interfaces (https://github.com/tweag/inline-java/pull/128)
+* A newtype Nullable coercible to Maybe, which can reify null references. (#144)
 
 ### Removed
 

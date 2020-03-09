@@ -8,7 +8,11 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
 ## Added
 
+* Ability to reify batches containing nulls (#144).
+
 ### Changed
+
+* Fixed some leaks of references (#144)
 
 ## [0.1.1] - 2018-02-27
 
