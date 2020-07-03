@@ -7,7 +7,8 @@ import Data.Data (Data)
 import Data.Maybe (mapMaybe)
 import Data.IORef (readIORef)
 import ErrUtils (ghcExit)
-import GHC.ThToHs (thRdrNameGuesses)
+-- ghc 8.10 import GHC.ThToHs (thRdrNameGuesses)
+import Convert (thRdrNameGuesses)
 import GhcPlugins
 import IfaceEnv (lookupOrigNameCache)
 import qualified Language.Haskell.TH as TH
